@@ -1,3 +1,32 @@
+/* First navbar */
+.first-navbar {
+  overflow: hidden;
+  background-color: $brand-success;
+  font-family: 'Mukta Mahee', sans-serif;
+}
+
+#header-contact-info {
+  padding: 10px;
+}
+.header-contact-details {
+  padding-left: 150px;
+}
+.info-top-right {
+  text-align: center;
+  padding: 10px;
+}
+.link-social {
+  margin-left: 50px;
+}
+.navbar-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-contact ul {
+  text-align: center;
+}
+
 /* Main navbar */
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
@@ -13,14 +42,9 @@
 /* Logo */
 .navbar-wagon-brand img {
   height: 50px;
+  padding-left: 150px;
 }
 
-/* User Avatar */
-.navbar-wagon .avatar {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-}
 
 /* Right section */
 .navbar-wagon-right {

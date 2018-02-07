@@ -1,0 +1,37 @@
+#service {
+  background-color: white;
+}
+
+.service-presentation {
+  padding: 30px;
+  background-color: white;
+  text-align: center;
+  font-size: 17px;
+  i {
+    font-size: 40px;
+    color: $brand-success;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 50px;
+  }
+}
+
+
+.service-presentation h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    position: relative;
+    letter-spacing: 2px;
+  }
+.service-presentation h2:after{
+    content: "";
+    position: absolute;
+    width: 12%;
+    height: 1px;
+    bottom: -10px;
+    left: 43%;
+    border-bottom: 5px solid #333333;
+  }
