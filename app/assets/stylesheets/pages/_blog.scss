@@ -1,0 +1,22 @@
+#blog {
+  background-color: white;
+  padding-bottom: 80px;
+}
+
+.blog-presentation h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    position: relative;
+    letter-spacing: 2px;
+  }
+.blog-presentation h2:after{
+    content: "";
+    position: absolute;
+    width: 3%;
+    height: 1px;
+    bottom: -10px;
+    left: 49%;
+    border-bottom: 5px solid #333333;
+  }

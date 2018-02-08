@@ -1,0 +1,88 @@
+#team {
+  padding: 30px;
+}
+.team-presentation h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    position: relative;
+    letter-spacing: 2px;
+  }
+.team-presentation h2:after{
+    content: "";
+    position: absolute;
+    width: 12%;
+    height: 1px;
+    bottom: -10px;
+    left: 43%;
+    border-bottom: 5px solid #333333;
+  }
+
+.description {
+  position: relative;
+}
+
+.box {
+  position: relative;
+  margin-left: 65px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 40px 50px 40px 95px;
+  height: 175px;
+  width: 400px;
+  border: 1px solid gray;
+}
+.box h5 {
+  position: relative;
+  // font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.box .poste {
+  position: relative;
+  font-style: italic;
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  color: rgba(0,0,0,0.35);
+}
+.photo {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: -65px;
+  top: 50%;
+  margin-top: -65px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+}
+.image {
+  background-position: center !important;
+  width: 130px;
+  height: 130px;
+}
+.linkedin {
+  position: absolute;
+  color: #0073BB;
+  font-size: 30px;
+  right: 8px;
+  top: 5%;
+  :hover {
+    opacity: 0.5;
+  }
+}
+
+.coordonnees  a {
+  color: black;
+}
+.coordonnees :hover {
+    color: $green-blue;
+    text-decoration: none;
+  }
+
+.second-line {
+  padding-top: 40px;
+}

@@ -1,0 +1,39 @@
+<div id="blog">
+  <div class="container blog-presentation">
+    <h2>Blog</h2>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'flower.jpg' %>);"></div>
+            <div class="card-description">
+              <h3>Titre article</h3>
+                <p>Date, auteur</p>
+                <%= link_to 'Découvrir', blog_path, class: "btn-article text-center" %>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-xs-12 col-sm-4">
+            <div class="card">
+              <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'environnement.jpg' %>);"></div>
+              <div class="card-description">
+                <h3>Titre article</h3>
+                  <p>Date, auteur</p>
+                  <%= link_to 'Découvrir', blog_path, class: "btn-article text-center" %>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-xs-12 col-sm-4">
+              <div class="card">
+                <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'eolienne.jpg' %>);"></div>
+                <div class="card-description">
+                  <h3>Titre, article</h3>
+                    <p>Date, auteur</p>
+                    <%= link_to 'Découvrir', blog_path, class: "btn-article text-center" %></a>
+                </div>
+              </div>
+            </div>
+      </div>
+  </div>
+</div>
