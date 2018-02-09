@@ -1,10 +1,21 @@
 #service {
   background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
+.img-back {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 
 .service-presentation {
   padding: 30px;
-  background-color: white;
+  background-color: transparent;
   text-align: center;
   font-size: 17px;
   i {
@@ -16,7 +27,19 @@
     margin-bottom: 50px;
   }
 }
-
+.img {
+  color: white;
+}
+.white-title h2 {
+  color: white;
+}
+.white-title h2:after {
+  border-bottom: 5px solid white;
+  display: none;
+}
+.white-icon i {
+  color: white;
+}
 
 .service-presentation h2 {
     text-align: center;
