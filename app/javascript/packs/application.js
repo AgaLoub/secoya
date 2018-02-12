@@ -1,6 +1,6 @@
 import "bootstrap";
 
-import { loadDynamicBannerText } from '../components/banner';
-if (document.getElementById("banner-typed-text")) {
-  loadDynamicBannerText();
-}
+// import { loadDynamicBannerText } from '../components/banner';
+// if (document.getElementById("banner-typed-text")) {
+//   loadDynamicBannerText();
+// }

@@ -1,15 +1,21 @@
 .btn-article {
-  background-color: $green-blue;
+  background-color: $green;
   color: white;
-  padding: 10px 10px;
-  margin-left: 35%;
+  padding: 10px 50px;
   font-size: 15px;
   margin-bottom: 10px;
+  margin: 10px 60px;
 }
+.btn-article a {
+  color: white;
+  }
 
 .btn-article:hover {
   text-decoration: none;
-  color: $green-blue;
+  color: $green;
   background-color: white;
-  border: 2px solid $green-blue;
+  border: 2px solid $green;
+  a {
+    color: $green;
+  }
 }

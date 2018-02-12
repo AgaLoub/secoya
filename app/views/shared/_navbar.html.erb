@@ -27,9 +27,10 @@
 
 <div class="navbar-wagon navbar-home">
 
-   <div class="navbar-wagon-brand">
-    <%= image_tag "clap.png", height: 50 %>
-  </div>
+    <%= link_to root_path, class: "navbar-wagon-brand" do %>
+    <%= image_tag "clap.png" %>
+  <% end %>
+
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">

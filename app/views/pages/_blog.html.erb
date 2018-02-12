@@ -6,31 +6,36 @@
           <div class="card">
             <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'flower.jpg' %>);"></div>
             <div class="card-description">
-              <h3>Titre article</h3>
+              <br>
+              <h5>Titre article</h5>
                 <p>Date, auteur</p>
-                <%= link_to 'Découvrir', blog_path, class: "btn-article text-center" %>
+                <div class="btn-article text-center"><%= link_to 'Découvrir', blog_path %></div>
             </div>
           </div>
         </div>
 
           <div class="col-xs-12 col-sm-4">
             <div class="card">
-              <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'environnement.jpg' %>);"></div>
+              <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'penguin.jpg' %>);"></div>
               <div class="card-description">
-                <h3>Titre article</h3>
-                  <p>Date, auteur</p>
-                  <%= link_to 'Découvrir', blog_path, class: "btn-article text-center" %>
+                <h5>Nouvelle vague (verte) - Quand le cinéma se la joue écolo</h5>
+                  <p>Vanity Fair, 24/11/2015</p>
+                  <div class="btn-article text-center" onclick="window.open('http://www.vanityfair.fr/culture/cinema/articles/cinema-la-vague-des-films-ecolo/29961')">Découvrir</div>
+
+
               </div>
             </div>
           </div>
 
             <div class="col-xs-12 col-sm-4">
               <div class="card">
-                <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'eolienne.jpg' %>);"></div>
+                <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'environnement.jpg' %>);"></div>
                 <div class="card-description">
-                  <h3>Titre, article</h3>
-                    <p>Date, auteur</p>
-                    <%= link_to 'Découvrir', blog_path, class: "btn-article text-center" %></a>
+                  <br>
+                  <h5>Le cinéma est-il écolo?
+                    </h5>
+                    <p>L'Express, 13/11/2015</p>
+                  <div class="btn-article text-center" onclick="window.open('https://www.lexpress.fr/culture/cinema/le-cinema-est-il-ecolo_1731898.html')">Découvrir</div>
                 </div>
               </div>
             </div>

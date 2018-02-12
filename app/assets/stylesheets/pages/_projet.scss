@@ -1,11 +1,11 @@
 #projet {
-  padding: 30px;
+  padding: 50px;
 }
 
 .projet-presentation h2 {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    // margin-top: 50px;
+    margin-bottom: 50px;
     font-weight: bolder;
     position: relative;
     letter-spacing: 2px;
@@ -19,3 +19,7 @@
     left: 43%;
     border-bottom: 5px solid #333333;
   }
+
+.text-projet p {
+  margin-bottom: 70px;
+}

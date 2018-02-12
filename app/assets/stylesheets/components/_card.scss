@@ -21,19 +21,22 @@
   color: black;
   padding: 18px;
   border: 1px solid black;
+  height: 180px;
 
 }
-.card-description h3 {
+.card-description h5 {
   margin: 0px;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 .card-description p {
   font-size: 14px;
   opacity: 0.7;
   font-weight: lighter;
+  font-style: italic;
   text-align: center;
+  padding-bottom: 10px;
 }
 .card-description a {
   text-align: center;
