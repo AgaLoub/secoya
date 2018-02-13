@@ -41,6 +41,9 @@
 .card-description a {
   text-align: center;
 }
+.card-description a:hover {
+  text-decoration: none;
+}
 .card-link {
   position: absolute;
   top: 0;

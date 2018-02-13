@@ -2,15 +2,13 @@
   width: 100%;
   background-color: #F4F4F4;
   overflow: hidden;
+  padding: 50px;
 }
-.infos p {
-    text-align: center;
-  }
 
 .infos
   h2 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 40px;
     font-weight: bolder;
     position: relative;
@@ -84,18 +82,16 @@
   padding-top: 15px;
   padding-bottom: 200px;
 }
-.warning {
-  font-size: 15px;
-  font-style: italic;
-}
 
 .bloc-infos {
   text-align: center;
   padding: 10px 0px;
   a {
-    color: $red;
-    :hover {
+    color: $green;
+  :hover {
       opacity: 0.5;
+      text-decoration: none;
+      color: $green;
     }
   }
 }

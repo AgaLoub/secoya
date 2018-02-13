@@ -15,7 +15,18 @@
   color: $green;
   background-color: white;
   border: 2px solid $green;
+  cursor: pointer;
   a {
     color: $green;
+    text-decoration: none;
   }
+}
+
+.form-horizontal .btn-cadre {
+  border: 2px solid #e7ecf1;
+  width: 40%;
+}
+.btn-cadre:hover {
+  background-color: $green;
+  color: white;
 }
