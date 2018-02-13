@@ -21,8 +21,6 @@
   color: black;
   padding: 18px;
   border: 1px solid black;
-  height: 180px;
-
 }
 .card-description h5 {
   margin: 0px;
@@ -56,4 +54,10 @@
 }
 .card-link:hover {
   opacity: 0.1;
+}
+
+@media (max-width: 1000px) {
+  .card-description h5 {
+    font-size: 18px;
+  }
 }

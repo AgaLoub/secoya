@@ -1,10 +1,10 @@
 #team {
-  padding: 50px;
+  padding: 30px 0px;
   margin-bottom: 50px;
 }
 .team-presentation h2 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 70px;
     margin-bottom: 40px;
     font-weight: bolder;
     position: relative;
@@ -19,7 +19,6 @@
     left: 43%;
     border-bottom: 5px solid #333333;
   }
-
 .description {
   position: relative;
 }
@@ -32,7 +31,7 @@
   padding: 40px 50px 40px 95px;
   height: 175px;
   width: 400px;
-  border: 1px solid gray;
+  border: 1px solid white;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -61,7 +60,7 @@
   overflow: hidden;
   border-radius: 50%;
   margin-bottom: 20px;
-  border: 2px solid gray;
+  border: 2px solid white;
 }
 .image {
   background-position: center !important;
@@ -90,4 +89,35 @@
 
 .second-line {
   padding-top: 40px;
+}
+
+@media (max-width: 800px) {
+  .photo {
+    height: 60px;
+    width: 60px;
+    left: 0px;
+    top: 40%;
+  }
+  .image {
+    background-position: center;
+    height: 60px;
+    width: 60px;
+  }
+  .box {
+    width: 95%;
+    margin: auto;
+    padding: auto;
+  }
+  .charles {
+    margin-bottom: 30px;
+  }
+  .luka {
+    margin-bottom: 30px;
+  }
+  .box h5 {
+    margin-left: -20px;
+  }
+  .box .poste {
+    margin-left: -20px;
+  }
 }

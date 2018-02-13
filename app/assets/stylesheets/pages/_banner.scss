@@ -1,6 +1,7 @@
 .banner-photo {
   padding: 0;
   overflow: hidden;
+  visibility: visible;
 }
 .carousel-inner {
   height: 90vh;
@@ -49,7 +50,12 @@
   transform: translate(-50%, -50%);
   }
 
+
+
 @media (max-width: 768px) {
+  .banner-photo {
+    overflow: hidden;
+  }
   .home-global-container .carousel-control {
    display: none;
   }
@@ -59,7 +65,9 @@
   .homepage-header {
     left: initial;
     right: initial;
-    top: 15vh;
+  }
+  .photo-banner {
+    width: 100%;
   }
 }
 

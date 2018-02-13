@@ -30,3 +30,11 @@
   background-color: $green;
   color: white;
 }
+
+@media (max-width: 1600px) {
+  .btn-form .btn-cadre {
+    margin-left: 0px;
+    width: 100%;
+  }
+  }
+

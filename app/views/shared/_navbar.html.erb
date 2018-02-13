@@ -25,32 +25,36 @@
 </div> -->
 
 
-<div class="navbar-wagon navbar-home">
+<div class="navbar-wagon">
 
-    <%= link_to root_path, class: "navbar-wagon-brand" do %>
-    <%= image_tag "clap.png" %>
+    <!-- Logo -->
+  <%= link_to root_path, class: "navbar-wagon-brand" do %>
+    <%= image_tag "clap.png", height: 50 %>
   <% end %>
 
-
   <!-- Right Navigation -->
-  <div class="navbar-wagon-right hidden-xs hidden-sm">
-
-    <a href="#projet" class="navbar-wagon-item navbar-wagon-link">Projet</a>
-    <a href="#service" class="navbar-wagon-item navbar-wagon-link">Services</a>
-    <a href="#team" class="navbar-wagon-item navbar-wagon-link">Qui sommes-nous?</a>
-    <a href="#blog" class="navbar-wagon-item navbar-wagon-link">Blog</a>
-    <a href="#contact" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+  <div class="navbar-right navbar-center hidden-xs hidden-sm">
+    <div class="navbar-wagon-item navbar-wagon-link projet">Projet</div>
+    <div class="navbar-wagon-item navbar-wagon-link service">Services</div>
+    <div class="navbar-wagon-item navbar-wagon-link team">Qui sommes-nous?</div>
+    <div class="navbar-wagon-item navbar-wagon-link blog">Blog</div>
+    <div class="navbar-wagon-item navbar-wagon-link contact">Contact</div>
+      <div class="contact-navbar">
+        <div class="contact-content">
+          <p><span style="letter-spacing: 3.5px;">Tel</span> : <span style="letter-spacing: 3.3px;">00.00.00.00.00</span></p>
+          <p>contact@secoya.fr</p>
+        </div>
+      </div>
 
     <!-- Profile picture with dropdown list -->
     <div class="navbar-wagon-item">
       <div class="dropdown">
-        <!-- <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown"> -->
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-          <li><a href="#projet">Projet</a></li>
-          <li><a href="#service">Services</a></li>
-          <li><a href="#team">Qui sommes-nous?</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <div class="navbar-wagon-item navbar-wagon-link projet">Projet</div>
+          <div class="navbar-wagon-item navbar-wagon-link service">Services</div>
+          <div class="navbar-wagon-item navbar-wagon-link team">Qui sommes-nous?</div>
+          <div class="navbar-wagon-item navbar-wagon-link blog">Blog</div>
+          <div class="navbar-wagon-item navbar-wagon-link contact">Contact</div>
         </ul>
       </div>
     </div>
@@ -61,13 +65,12 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#projet">Projet</a></li>
-        <li><a href="#service">Services</a></li>
-        <li><a href="#team">Qui sommes-nous?</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <div class="navbar-wagon-item navbar-wagon-link projet">Projet</div>
+        <div class="navbar-wagon-item navbar-wagon-link service">Services</div>
+        <div class="navbar-wagon-item navbar-wagon-link team">Qui sommes-nous?</div>
+        <div class="navbar-wagon-item navbar-wagon-link blog">Blog</div>
+        <div class="navbar-wagon-item navbar-wagon-link contact">Contact</div>
       </ul>
     </div>
   </div>
 </div>
-

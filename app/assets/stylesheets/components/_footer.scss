@@ -22,3 +22,13 @@
   opacity: 1;
   color: $green;
 }
+
+@media (max-width: 768px) {
+  .footer-copyright {
+    font-size: 12px;
+  }
+  .footer-links a {
+    font-size: 20px;
+    padding: auto;
+  }
+}
