@@ -1,6 +1,6 @@
 
 if (document.querySelector(".carousel")) {
   $('.carousel').carousel({
-  interval: 1000
+  interval: 8000
 })
 }

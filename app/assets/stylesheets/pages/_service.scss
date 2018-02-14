@@ -26,8 +26,25 @@
   }
   p {
     margin-bottom: 50px;
+    color: white;
+    font-size: 18px;
   }
 }
+.service-presentation a {
+  color: white;
+  text-decoration: none;
+  }
+.service-presentation a:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+  .text-intro p {
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+
 .img {
   color: white;
 }
@@ -45,8 +62,11 @@
   left: 43%;
   border-bottom: 5px solid white;
 }
-.white-icon i {
+.white-icon  {
   color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .service-presentation h2 {
