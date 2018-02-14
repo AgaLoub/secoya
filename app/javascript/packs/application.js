@@ -1,7 +1,8 @@
 import "bootstrap";
 import "components/carousel";
 import "components/scroll";
-import "components/flashes"
+import { hideFlashAfter5sec } from '../components/flashes';
+hideFlashAfter5sec();
 
 // import { loadDynamicBannerText } from '../components/banner';
 // if (document.getElementById("banner-typed-text")) {
