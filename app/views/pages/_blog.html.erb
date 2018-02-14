@@ -3,19 +3,21 @@
     <h2>Blog</h2>
       <div class="row presentation-article">
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'flower.jpg' %>);">
-          </div>
-            <div class="card">
-              <div class="card-description">
-                <h5>Titre article</h5>
-                  <p>Date, auteur</p>
-                  <div class="btn-article text-center"><%= link_to 'Découvrir', blog_path %></div>
-              </div>
+          <%= link_to blog_path do %>
+            <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'flower.jpg' %>);">
             </div>
+            <% end %>
+              <div class="card">
+                <div class="card-description">
+                  <h5>Titre article</h5>
+                    <p>Date, auteur</p>
+                    <div class="btn-article text-center"><%= link_to 'Découvrir', blog_path %></div>
+                </div>
+              </div>
         </div>
 
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'penguin.jpg' %>);">
+            <div class="card-image" onclick="window.open('http://www.vanityfair.fr/culture/cinema/articles/cinema-la-vague-des-films-ecolo/29961')" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'penguin.jpg'  %>); ">
             </div>
               <div class="card">
                <div class="card-description">
@@ -27,7 +29,7 @@
           </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'environnement.jpg' %>);">
+              <div class="card-image" nclick="window.open('https://www.lexpress.fr/culture/cinema/le-cinema-est-il-ecolo_1731898.html')" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'environnement.jpg' %>);">
               </div>
                 <div class="card">
                   <div class="card-description">
