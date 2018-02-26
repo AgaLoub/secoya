@@ -36,9 +36,19 @@
   margin-bottom: 30px;
   position: relative;
 }
-.bloc-infos img {
-  height: 25px;
+
+.bloc-infos {
+  text-align: center;
+  padding: 10px 0px;
+  a {
+    color: green;
+      }
 }
+.bloc-infos a:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 993px) {
   .contact-form {
   padding: 15px;
@@ -101,17 +111,6 @@
 .message {
   padding-top: 15px;
   padding-bottom: 200px;
-}
-
-.bloc-infos {
-  text-align: center;
-  padding: 10px 0px;
-  a {
-    color: #545454;
-      }
-}
-.bloc-infos img:hover {
-  opacity: 0.5;
 }
 
 
