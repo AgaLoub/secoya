@@ -10,15 +10,15 @@
     position: relative;
     letter-spacing: 2px;
   }
-.team-presentation h2:after{
-    content: "";
-    position: absolute;
-    width: 12%;
-    height: 1px;
-    bottom: -10px;
-    left: 43%;
-    border-bottom: 5px solid #333333;
-  }
+// .team-presentation h2:after{
+//     content: "";
+//     position: absolute;
+//     width: 11%;
+//     height: 1px;
+//     bottom: -10px;
+//     left: 45%;
+//     border-bottom: 5px solid #333333;
+//   }
 .description {
   position: relative;
 }
@@ -28,14 +28,14 @@
   margin-left: 65px;
   border-radius: 5px;
   background-color: white;
-  padding: 40px 50px 40px 95px;
+  padding: 40px 48px 40px 90px;
   height: 175px;
   width: 400px;
   border: 1px solid white;
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.box h5 {
+.box h4 {
   position: relative;
   // font-size: 18px;
   margin-bottom: 4px;
@@ -81,6 +81,8 @@
 
 .coordonnees  a {
   color: black;
+  font-size: 16px;
+
 }
 .coordonnees :hover {
     color: $green;

@@ -1,3 +1,5 @@
+
+window.__forceSmoothScrollPolyfill__ = true;
 const links = document.querySelectorAll('.navbar-wagon-link');
 
 // const sections = document.querySelectorAll('.section');
@@ -25,3 +27,5 @@ function handleClick(event) {
 
 
 links.forEach(link => link.addEventListener('click', handleClick))
+
+
