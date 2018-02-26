@@ -36,7 +36,9 @@
   margin-bottom: 30px;
   position: relative;
 }
-
+.bloc-infos img {
+  height: 25px;
+}
 @media screen and (max-width: 993px) {
   .contact-form {
   padding: 15px;

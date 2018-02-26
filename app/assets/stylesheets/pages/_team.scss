@@ -4,12 +4,16 @@
 }
 .team-presentation h2 {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-bottom: 40px;
     font-weight: bolder;
     position: relative;
     letter-spacing: 2px;
   }
+
+.team-presentation p {
+  line-height: 28px;
+}
 // .team-presentation h2:after{
 //     content: "";
 //     position: absolute;
@@ -82,6 +86,7 @@
 .coordonnees  a {
   color: black;
   font-size: 16px;
+  font-family: 'Hind', sans-serif;
 
 }
 .coordonnees :hover {

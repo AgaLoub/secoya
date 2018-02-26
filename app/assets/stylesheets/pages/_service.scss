@@ -43,14 +43,18 @@
     font-size: 20px;
     padding-top: 20px;
     margin-bottom: 30px;
+    line-height: 31px;
   }
 
 .img {
   color: white;
+  p {
+    line-height: 28px;
+  }
 }
 .white-title h2 {
   color: white;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 // .white-title h2:after {
 //   border-bottom: 5px solid white;
