@@ -23,7 +23,13 @@
 //   color: $green;
 // }
 
-
+.footer-copyright a {
+  color: #545454;
+}
+.footer-copyright a:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
 
 @media (max-width: 768px) {
   .footer-copyright {
