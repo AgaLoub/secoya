@@ -161,6 +161,11 @@
   border-top: 1px solid #E6E6E6;
 }
 
+@media (max-width: 800px) {
+  .navbar-center {
+  font-size: 14px;
+}
+}
 @media (max-width: 768px) {
   .navbar-wagon {
     position: static;
@@ -168,6 +173,7 @@
   .navbar-wagon-brand img {
   padding-left: 50px;
 }
+
 }
 
 @media (max-width: 1000px) {
@@ -176,8 +182,8 @@
   padding-right: 20px;
   padding-left: 5px;
 }
-// .dropdown {
-//   display: none;
-// }
+.dropdown {
+  display: none;
+}
 }
 
