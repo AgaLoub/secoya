@@ -1,7 +1,8 @@
 .banner-photo {
   padding: 0;
   overflow: hidden;
-  visibility: visible;
+  // visibility: visible;
+  // z-index: 0;
 }
 .carousel-inner {
   height: 86vh;
@@ -37,7 +38,8 @@
 
 .homepage-header p {
   margin-bottom: 30px;
-  font-size: 25px;
+  font-size: 35px;
+  line-height: 40px;
 }
 
 .carousel-inner > .item {
@@ -66,9 +68,19 @@
     left: initial;
     right: initial;
   }
+  .homepage-header p {
+    font-size: 25px;
+  }
   .photo-banner {
     width: 100%;
   }
+
+  .navbar-wagon-item {
+    z-index: 2;
+  }
 }
+
+
+
 
 

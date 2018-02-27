@@ -25,3 +25,13 @@
     opacity: 0.5;
     text-decoration: none;
   }
+
+
+@media (max-width: 900px) {
+  .legal {
+    padding: 10px 20px;
+  }
+  .legal h4 {
+    font-size: 20px;
+  }
+}
