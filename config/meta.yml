@@ -1,0 +1,5 @@
+meta_product_name: "Secoya écotournage"
+meta_title: "Le développement durable sur un plateau"
+meta_description: "Secoya écotournage vous propose des solutions concrètes pour une éco-responsabilité sur vos tournages"
+meta_image: "form-background-meta.jpg"                       # should exist in `app/assets/images/`
+#twitter_account: "@product_twitter_account"   # required for Twitter Cards
