@@ -7,32 +7,32 @@
 }
 
 .img-back {
-  background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: white;
 }
 
 .service-presentation {
-  background-color: transparent;
+  background-color: white;
   text-align: center;
   font-size: 17px;
   padding-top: 5px;
   i {
     font-size: 40px;
-    color: $green;
+    color: #545454;
     margin-bottom: 20px;
     margin-top: 25px;
   }
   p {
     margin-bottom: 50px;
-    color: white;
+    color: #545454;
     font-size: 18px;
   }
 }
 
 .service-presentation a {
-  color: white;
+  color: #545454;
   text-decoration: none;
   }
 .service-presentation a:hover {
@@ -48,13 +48,13 @@
   }
 
 .img {
-  color: white;
+  color: #545454;
   p {
     line-height: 28px;
   }
 }
 .white-title h2 {
-  color: white;
+  color: #545454;
   margin-top: 70px;
 }
 // .white-title h2:after {
