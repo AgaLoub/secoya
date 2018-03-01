@@ -19,32 +19,6 @@
 }
 
 
-// #projet {
-//   padding: 30px 0px;
-// }
-
-// .projet-presentation h2 {
-//     text-align: center;
-//     margin-top: 80px;
-//     margin-bottom: 50px;
-//     font-weight: bolder;
-//     position: relative;
-//     letter-spacing: 2px;
-//   }
-
-// .projet-presentation h2:after{
-//     content: "";
-//     position: absolute;
-//     width: 11%;
-//     height: 1px;
-//     bottom: -10px;
-//     left: 45%;
-//     border-bottom: 5px solid #333333;
-//   }
-
-// .text-projet p {
-//   padding-top: 5px;
-// }
 .bold-text {
   font-size: 20px;
   font-weight: bolder;
@@ -64,8 +38,16 @@
   #projet {
     overflow: hidden;
   }
+
   .text-projet {
     padding: 30px 30px;
+
+  }
+}
+@media (max-width: 700px) {
+  .projet-presentation h2 {
+    margin: 25px;
+    font-size: 30px;
 
   }
 }

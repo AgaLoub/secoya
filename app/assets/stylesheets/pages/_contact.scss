@@ -131,3 +131,11 @@
 .bloc-infos {
   font-size: 15px;
 }
+
+@media (max-width: 700px) {
+  .infos h2 {
+    margin: 25px;
+    font-size: 30px;
+
+  }
+}
