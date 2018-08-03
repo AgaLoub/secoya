@@ -8,23 +8,22 @@
   padding-top: 15px;
 }
 .blog-presentation h2 {
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 40px;
-    font-weight: bolder;
-    position: relative;
-    letter-spacing: 2px;
-  }
-// .blog-presentation h2:after{
-//     content: "";
-//     position: absolute;
-//     width: 4%;
-//     height: 1px;
-//     bottom: -10px;
-//     left: 48%;
-//     border-bottom: 5px solid #333333;
-
-//   }
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-weight: bolder;
+  position: relative;
+  letter-spacing: 2px;
+}
+.blog-presentation h3 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-weight: bolder;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 50px
+}
 
 @media (max-width: 1000px) {
   #blog {
@@ -34,6 +33,10 @@
 
 @media (max-width: 700px) {
   .blog-presentation h2 {
+    margin: 25px;
+    font-size: 30px;
+  }
+  .blog-presentation h3 {
     margin: 25px;
     font-size: 30px;
 

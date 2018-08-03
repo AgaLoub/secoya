@@ -64,6 +64,7 @@ GEM
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
+    json (2.1.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -83,6 +84,10 @@ GEM
     nio4r (2.2.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
+    pdfjs_viewer-rails (0.2.0)
+      json (> 1.8.4)
+      rails (> 4.2.0)
+      sass-rails (~> 5.0)
     pg (0.21.0)
     pry (0.11.3)
       coderay (~> 1.1.0)
@@ -183,6 +188,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   listen (~> 3.0.5)
   mail_form
+  pdfjs_viewer-rails
   pg (~> 0.21)
   pry-byebug
   pry-rails
@@ -201,4 +207,4 @@ RUBY VERSION
    ruby 2.3.5p376
 
 BUNDLED WITH
-   1.16.1
+   1.16.2

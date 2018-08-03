@@ -5,6 +5,9 @@
   color: white;
   position: relative;
 }
+#revue_de_presse .card {
+  height: 160px;
+}
 .card-image {
   height: 175px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
@@ -12,6 +15,12 @@
   background-position: center;
   color: white;
   position: relative;
+}
+
+#talk_to_us {
+      background-size: contain;
+      height: 114px;
+      background-repeat: no-repeat;
 }
 .card-image:hover {
   opacity: 0.8;
