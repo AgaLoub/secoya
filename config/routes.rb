@@ -7,8 +7,6 @@ Rails.application.routes.draw do
   get 'blog', to: 'blog#home', as: :blog
   get 'legal', to: 'legal#home', as: :legal
 
-  mount PdfjsViewer::Rails::Engine => "/pdfjs", as: 'pdfjs'
-
   resources :contacts, only: [:new, :create]
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
